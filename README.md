@@ -1,4 +1,4 @@
-# 🏠 California Housing Price Prediction using Linear Regression
+#  California Housing Price Prediction using Linear Regression
 
 ## Project Overview
 This project applies **Linear Regression** to predict median house values using the California Housing dataset.  

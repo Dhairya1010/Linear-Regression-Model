@@ -1,6 +1,6 @@
 # 🏠 California Housing Price Prediction using Linear Regression
 
-## 📌 Project Overview
+## Project Overview
 This project applies **Linear Regression** to predict median house values using the California Housing dataset.  
 The focus is not only on prediction accuracy, but on **understanding when linear regression works, when it fails, and why**.
 
@@ -12,7 +12,7 @@ The project follows a structured machine learning workflow:
 
 ---
 
-## 🎯 Objective
+## Objective
 - Predict `median_house_value`
 - Use Linear Regression as a **baseline model**
 - Evaluate performance using MAE and R²
@@ -20,16 +20,16 @@ The project follows a structured machine learning workflow:
 
 ---
 
-## 📂 Dataset
+## Dataset
 - **Dataset:** California Housing
 - **Target Variable:** `median_house_value`
 - **Missing values:** Removed using `.dropna()`
 
 ---
 
-## 🧪 Methodology
+## Methodology
 
-### 1️⃣ Feature Selection (Final Model)
+### Feature Selection (Final Model)
 The final model uses the following features:
 
 - `housing_median_age`
@@ -42,7 +42,7 @@ These were selected incrementally to observe how model performance changes and t
 
 ---
 
-### 2️⃣ Train / Test Split
+### Train / Test Split
 The dataset is split into training and validation sets:
 
 - **Training set:** 80%
@@ -51,19 +51,19 @@ The dataset is split into training and validation sets:
 
 ---
 
-### 3️⃣ Model Training
+### Model Training
 A standard **Linear Regression** model from `scikit-learn` is trained on the selected features.
 
 ---
 
-### 4️⃣ Evaluation Metrics
+### Evaluation Metrics
 The model is evaluated using:
 - **Mean Absolute Error (MAE)**
 - **R² Score**
 
 ---
 
-## 📊 Results
+## Results
 
 | Metric | Value |
 |------|------|
@@ -77,7 +77,7 @@ The model is evaluated using:
 
 ---
 
-## 🔍 Coefficient Interpretation (Key Insights)
+## Coefficient Interpretation (Key Insights)
 
 - **Median Income:**  
   Strongest positive predictor of house prices.
@@ -93,14 +93,14 @@ The model is evaluated using:
 
 ---
 
-## ❗ Model Diagnosis
+## Model Diagnosis
 
-### ✅ Strengths
+### Strengths
 - Simple and interpretable
 - Clear feature impact
 - Strong baseline performance
 
-### ❌ Limitations
+### Limitations
 - Underfits complex, non-linear relationships
 - Cannot model feature interactions
 - Performance plateaus despite adding features
@@ -109,7 +109,7 @@ The model is evaluated using:
 
 ---
 
-## 🧠 Key Takeaways
+## Key Takeaways
 - Linear Regression is best used as a **baseline model**
 - Feature selection matters more than model complexity
 - Location and income dominate housing prices
@@ -117,7 +117,7 @@ The model is evaluated using:
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 - Apply **Decision Tree Regression**
 - Compare with **Random Forest**
 - Perform feature engineering (e.g., rooms per household)
@@ -125,5 +125,5 @@ The model is evaluated using:
 
 ---
 
-## 🏁 Conclusion
+## Conclusion
 Linear Regression provides a solid and interpretable baseline for housing price prediction, but it underfits the complex and non-linear nature of real estate data. More advanced models are required for improved predictive performance.
